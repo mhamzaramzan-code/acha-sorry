@@ -1,4 +1,4 @@
-:root { --font-display:"Cormorant Garamond"; --font-body:"DM Sans"; --ink:#2e2421; --paper:#f7f0e7; --rose:#b86d70; --wine-dark:#3d111a; --line:rgba(73,44,36,.18); }
+\f:root { --font-display:"Cormorant Garamond"; --font-body:"DM Sans"; --ink:#2e2421; --paper:#f7f0e7; --rose:#b86d70; --wine-dark:#3d111a; --line:rgba(73,44,36,.18); }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; color:var(--ink); background:var(--paper); font-family:var(--font-body),Georgia,serif; }
@@ -25,7 +25,7 @@ a { color:inherit; text-decoration:none; }
 .letter-section { position:relative; padding:clamp(5rem,10vw,10rem) clamp(1.2rem,6vw,7rem); background:#e9dccd; }
 .section-number { position:absolute; top:3rem; left:clamp(1.2rem,6vw,7rem); color:rgba(54,37,31,.38); font:.7rem var(--font-body),Arial,sans-serif; letter-spacing:.2em; }
 .letter-shell { width:min(1180px,100%); margin:0 auto; display:grid; grid-template-columns:.88fr 1.12fr; align-items:center; }
-.letter-image { min-height:610px; height:82%; transform:translateX(4%); box-shadow:0 26px 70px rgba(61,30,26,.18); background-image:url('/letter-still-life.png'),linear-gradient(145deg,#a86b68,#5c252c); background-size:cover; background-position:center; }
+.letter-image { min-height:610px; height:82%; transform:translateX(4%); box-shadow:0 26px 70px rgba(61,30,26,.18); background-image:url('/our-photo.jfif'),linear-gradient(145deg,#a86b68,#5c252c); background-size:cover; background-position:center; }
 .letter-paper { position:relative; z-index:1; padding:clamp(2.2rem,6vw,6rem); background:#fffaf3; box-shadow:0 35px 80px rgba(53,30,23,.16); }
 .letter-mark { color:var(--rose); margin-bottom:2rem; }
 .salutation { margin:0 0 .6rem; font-family:var(--font-display),Georgia,serif; font-size:1.45rem; font-style:italic; color:var(--rose); }
