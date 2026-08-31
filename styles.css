@@ -1,4 +1,4 @@
-:root { --font-display:"Cormorant Garamond"; --font-body:"DM Sans"; --ink:#2e2421; --paper:#f7f0e7; --rose:#b86d70; --wine-dark:#73C2FB; --line:rgba(73,44,36,.18); }
+:root { --font-display:"Cormorant Garamond"; --font-body:"DM Sans"; --ink:#2e2421; --paper:#f7f0e7; --rose:#b86d70; --wine-dark:#3d111a; --line:rgba(73,44,36,.18); }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; color:var(--ink); background:var(--paper); font-family:var(--font-body),Georgia,serif; }
